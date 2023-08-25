@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Mein Webseite</title>
+    <!--css-->
+    <style>
+      header {
+        background-color: bisque;
+        margin: 25px;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      nav {
+        padding: 15px;
+        margin: 40px;
+      }
+
+      a {
+        text-decoration: none;
+        padding: 15px;
+        margin: 40px;
+        background-color: aquamarine;
+        text-align: center;
+        border-radius: 5px;
+      }
+      a:hover {
+        background-color: yellow;
+        padding: 15px;
+        margin: 40px;
+      }
+      main {
+        background-color: lavenderblush;
+        margin: 10px;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      h3 {
+        color: darkcyan;
+        font-size: 20px;
+        text-shadow: 0 0 6px gray;
+      }
+      footer {
+        background-color: bisque;
+        margin: 10px;
+        padding: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+      }
+      span {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        color: darkcyan;
+        font-size: 16px;
+        text-shadow: 0 0 6px gray;
+      }
+      button {
+        background-color: bisque;
+        color: blue;
+        border-radius: 5px;
+      }
+      button:hover {
+        background-color: cadetblue;
+      }
+      li {
+        color: chocolate;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16;
+        line-height: 20px;
+        text-align: justify;
+        padding: 10px;
+        margin: 15px;
+      }
+      li {
+        color: darkcyan;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: justify;
+        padding: 10px;
+        margin: 15px;
+      }
+      form {
+        background-color: bisque;
+        border: solid 2px chocolate;
+        width: 500px;
+        border-radius: 5px;
+        padding: 20px;
+      }
+      select {
+        width: 200px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid bisque;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      textarea {
+        width: 50%;
+        border: 1px solid bisque;
+        color: chocolate;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--HEADER Bereich-->
+    <header>
+      <!--HEADER Bereich-->
+      <nav>
+        <a href="index.html">Startseite</a>
+        <a href="angebot.html">Angebot</a>
+        <a href="bestellen.html">Bestellen</a>
+        <a href="kontakt.html">Kontakt</a>
+        <a href="impressum.html">Impressum</a>
+      </nav>
+    </header>
+    <!--Inhalt-->
+    <main>
+      <h1>Kontaktseite...</h1>
+      <select size="1">
+        <option>Privat</option>
+        <option>Unternehmer</option>
+      </select>
+      <form>
+        <label>Vorname:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label>Nachname:</label><br />
+        <input type="text" id="lname" name="lname" /><br /><br />
+        <label>E-Mail:</label><br />
+        <input type="text" id="email" name="email" /><br /><br />
+        <label>Telefon Nummer:</label><br />
+        <input type="text" id="tel" name="tel" /><br /><br />
+        <label>Anschrift:</label><br />
+        <textarea placeholder="Ihre Nachricht"></textarea><br /><br />
+        <button>Senden</button>
+      </form>
+    </main>
+    <!--Fusszeile-->
+    <footer><span> Copyright</span> &copy; <span> Rachid, Boudra</span></footer>
+  </body>
+</html>
